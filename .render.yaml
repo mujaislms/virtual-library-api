@@ -1,11 +1,1 @@
-services:
-  - type: web
-    name: virtual-library-api
-    env: python
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "python app.py"
-    envVars:
-      - key: SUPABASE_URL
-        value: https://zsikmtnlzwzcdoxblztx.supabase.co
-      - key: SUPABASE_KEY
-        value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpzaWttdG5send6Y2RveGJsenR4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDIyMTU5NjcsImV4cCI6MjA1Nzc5MTk2N30.yDWFD3iB_fWiPslmFLd5BgUJ8GRYxPvUvEgqSW7JX4c
+
