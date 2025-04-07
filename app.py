@@ -5,9 +5,9 @@ import os
 app = Flask(__name__)
 
 # Load Supabase credentials from environment variables
-SUPABASE_URL = os.getenv("https://zsikmtnlzwzcdoxblztx.supabase.co")
-SUPABASE_KEY = os.getenv("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpzaWttdG5send6Y2RveGJsenR4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDIyMTU5NjcsImV4cCI6MjA1Nzc5MTk2N30.yDWFD3iB_fWiPslmFLd5BgUJ8GRYxPvUvEgqSW7JX4c")
-supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
+#SUPABASE_URL = os.getenv("https://zsikmtnlzwzcdoxblztx.supabase.co")
+#SUPABASE_KEY = os.getenv("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpzaWttdG5send6Y2RveGJsenR4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDIyMTU5NjcsImV4cCI6MjA1Nzc5MTk2N30.yDWFD3iB_fWiPslmFLd5BgUJ8GRYxPvUvEgqSW7JX4c")
+#supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 # Route: Home
 @app.route("/")
