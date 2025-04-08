@@ -20,8 +20,8 @@ supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 @app.route("/", methods=["GET"])
 def home():
     return """
-    <h1>📚 Kamal Library Virtual Assistant</h1>
-    <p>Welcome to the AI-powered Kamal Library system!</p>
+    <h1>📚 Manipal University Jaipur Library Virtual Assistant</h1>
+    <p>Welcome to the AI-Driven Library Management System!</p>
     <ul>
         <li><a href="/books">📘 View All Books</a></li>
         <li><a href="/users">👤 View All Users</a></li>
