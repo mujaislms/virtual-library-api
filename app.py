@@ -6,8 +6,8 @@ import os
 app = Flask(__name__)
 
 # Supabase environment variables
-SUPABASE_URL = os.getenv("https://zsikmtnlzwzcdoxblztx.supabase.co")
-SUPABASE_KEY = os.getenv("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpzaWttdG5send6Y2RveGJsenR4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDIyMTU5NjcsImV4cCI6MjA1Nzc5MTk2N30.yDWFD3iB_fWiPslmFLd5BgUJ8GRYxPvUvEgqSW7JX4c")
+SUPABASE_URL = "https://zsikmtnlzwzcdoxblztx.supabase.co"
+SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpzaWttdG5send6Y2RveGJsenR4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDIyMTU5NjcsImV4cCI6MjA1Nzc5MTk2N30.yDWFD3iB_fWiPslmFLd5BgUJ8GRYxPvUvEgqSW7JX4c"
 
 # Validate Supabase credentials
 if not SUPABASE_URL or not SUPABASE_KEY:
